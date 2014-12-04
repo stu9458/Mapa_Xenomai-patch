@@ -1,0 +1,123 @@
+libanalogy_la-range.lo: range.c \
+ /usr/arm-linux-gnueabihf/include/stdc-predef.h \
+ /usr/arm-linux-gnueabihf/include/errno.h \
+ /usr/arm-linux-gnueabihf/include/features.h \
+ /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+ /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+ /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
+ /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
+ /usr/arm-linux-gnueabihf/include/bits/errno.h \
+ /usr/arm-linux-gnueabihf/include/linux/errno.h \
+ /usr/arm-linux-gnueabihf/include/asm/errno.h \
+ /usr/arm-linux-gnueabihf/include/asm-generic/errno.h \
+ /usr/arm-linux-gnueabihf/include/asm-generic/errno-base.h \
+ /usr/arm-linux-gnueabihf/include/math.h \
+ /usr/arm-linux-gnueabihf/include/bits/huge_val.h \
+ /usr/arm-linux-gnueabihf/include/bits/huge_valf.h \
+ /usr/arm-linux-gnueabihf/include/bits/huge_vall.h \
+ /usr/arm-linux-gnueabihf/include/bits/inf.h \
+ /usr/arm-linux-gnueabihf/include/bits/nan.h \
+ /usr/arm-linux-gnueabihf/include/bits/mathdef.h \
+ /usr/arm-linux-gnueabihf/include/bits/mathcalls.h \
+ /usr/arm-linux-gnueabihf/include/bits/mathinline.h \
+ ../../../include/analogy/analogy.h \
+ /usr/arm-linux-gnueabihf/include/unistd.h \
+ /usr/arm-linux-gnueabihf/include/bits/posix_opt.h \
+ /usr/arm-linux-gnueabihf/include/bits/environments.h \
+ /usr/arm-linux-gnueabihf/include/bits/types.h \
+ /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/4.8/include/stddef.h \
+ /usr/arm-linux-gnueabihf/include/bits/confname.h \
+ /usr/arm-linux-gnueabihf/include/getopt.h \
+ /usr/arm-linux-gnueabihf/include/bits/unistd.h \
+ ../../../include/analogy/types.h ../../../include/analogy/descriptor.h \
+ ../../../include/analogy/subdevice.h ../../../include/analogy/context.h \
+ ../../../include/analogy/instruction.h \
+ ../../../include/analogy/command.h \
+ ../../../include/analogy/channel_range.h \
+ ../../../include/analogy/device.h ../../../include/analogy/driver.h \
+ ../../../include/analogy/transfer.h ../../../include/analogy/buffer.h
+
+/usr/arm-linux-gnueabihf/include/stdc-predef.h:
+
+/usr/arm-linux-gnueabihf/include/errno.h:
+
+/usr/arm-linux-gnueabihf/include/features.h:
+
+/usr/arm-linux-gnueabihf/include/sys/cdefs.h:
+
+/usr/arm-linux-gnueabihf/include/bits/wordsize.h:
+
+/usr/arm-linux-gnueabihf/include/gnu/stubs.h:
+
+/usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h:
+
+/usr/arm-linux-gnueabihf/include/bits/errno.h:
+
+/usr/arm-linux-gnueabihf/include/linux/errno.h:
+
+/usr/arm-linux-gnueabihf/include/asm/errno.h:
+
+/usr/arm-linux-gnueabihf/include/asm-generic/errno.h:
+
+/usr/arm-linux-gnueabihf/include/asm-generic/errno-base.h:
+
+/usr/arm-linux-gnueabihf/include/math.h:
+
+/usr/arm-linux-gnueabihf/include/bits/huge_val.h:
+
+/usr/arm-linux-gnueabihf/include/bits/huge_valf.h:
+
+/usr/arm-linux-gnueabihf/include/bits/huge_vall.h:
+
+/usr/arm-linux-gnueabihf/include/bits/inf.h:
+
+/usr/arm-linux-gnueabihf/include/bits/nan.h:
+
+/usr/arm-linux-gnueabihf/include/bits/mathdef.h:
+
+/usr/arm-linux-gnueabihf/include/bits/mathcalls.h:
+
+/usr/arm-linux-gnueabihf/include/bits/mathinline.h:
+
+../../../include/analogy/analogy.h:
+
+/usr/arm-linux-gnueabihf/include/unistd.h:
+
+/usr/arm-linux-gnueabihf/include/bits/posix_opt.h:
+
+/usr/arm-linux-gnueabihf/include/bits/environments.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types.h:
+
+/usr/arm-linux-gnueabihf/include/bits/typesizes.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabihf/4.8/include/stddef.h:
+
+/usr/arm-linux-gnueabihf/include/bits/confname.h:
+
+/usr/arm-linux-gnueabihf/include/getopt.h:
+
+/usr/arm-linux-gnueabihf/include/bits/unistd.h:
+
+../../../include/analogy/types.h:
+
+../../../include/analogy/descriptor.h:
+
+../../../include/analogy/subdevice.h:
+
+../../../include/analogy/context.h:
+
+../../../include/analogy/instruction.h:
+
+../../../include/analogy/command.h:
+
+../../../include/analogy/channel_range.h:
+
+../../../include/analogy/device.h:
+
+../../../include/analogy/driver.h:
+
+../../../include/analogy/transfer.h:
+
+../../../include/analogy/buffer.h:

@@ -1,0 +1,4 @@
+gnuplot -e 'input_file="input";output_file="output.png";graph_title="title text"' scripts/histo.gp
+
+
+Use that SCP send the device to the pc and use that to create a plot

@@ -1,0 +1,323 @@
+clocktest-clocktest.o: clocktest.c \
+ /usr/arm-linux-gnueabihf/include/stdc-predef.h \
+ ../../../include/posix/errno.h /usr/arm-linux-gnueabihf/include/errno.h \
+ /usr/arm-linux-gnueabihf/include/features.h \
+ /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+ /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+ /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
+ /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
+ /usr/arm-linux-gnueabihf/include/bits/errno.h \
+ /usr/arm-linux-gnueabihf/include/linux/errno.h \
+ /usr/arm-linux-gnueabihf/include/asm/errno.h \
+ /usr/arm-linux-gnueabihf/include/asm-generic/errno.h \
+ /usr/arm-linux-gnueabihf/include/asm-generic/errno-base.h \
+ ../../../include/posix/pthread.h ../../../include/posix/sched.h \
+ /usr/arm-linux-gnueabihf/include/sched.h \
+ /usr/arm-linux-gnueabihf/include/bits/types.h \
+ /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/4.8/include/stddef.h \
+ ../../../include/posix/time.h /usr/arm-linux-gnueabihf/include/time.h \
+ /usr/arm-linux-gnueabihf/include/bits/time.h \
+ /usr/arm-linux-gnueabihf/include/bits/timex.h \
+ /usr/arm-linux-gnueabihf/include/xlocale.h \
+ /usr/arm-linux-gnueabihf/include/bits/sched.h \
+ /usr/arm-linux-gnueabihf/include/pthread.h \
+ /usr/arm-linux-gnueabihf/include/endian.h \
+ /usr/arm-linux-gnueabihf/include/bits/endian.h \
+ /usr/arm-linux-gnueabihf/include/bits/byteswap.h \
+ /usr/arm-linux-gnueabihf/include/bits/byteswap-16.h \
+ /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h \
+ /usr/arm-linux-gnueabihf/include/bits/setjmp.h \
+ ../../../include/nucleus/thread.h ../../../include/nucleus/types.h \
+ ../../../include/posix/stdio.h /usr/arm-linux-gnueabihf/include/stdio.h \
+ /usr/arm-linux-gnueabihf/include/libio.h \
+ /usr/arm-linux-gnueabihf/include/_G_config.h \
+ /usr/arm-linux-gnueabihf/include/wchar.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/4.8/include/stdarg.h \
+ /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h \
+ /usr/arm-linux-gnueabihf/include/bits/sys_errlist.h \
+ /usr/arm-linux-gnueabihf/include/bits/stdio.h \
+ /usr/arm-linux-gnueabihf/include/bits/stdio2.h \
+ ../../../src/include/xeno_config.h \
+ /usr/arm-linux-gnueabihf/include/string.h \
+ /usr/arm-linux-gnueabihf/include/bits/string.h \
+ /usr/arm-linux-gnueabihf/include/bits/string2.h \
+ /usr/arm-linux-gnueabihf/include/stdlib.h \
+ /usr/arm-linux-gnueabihf/include/bits/string3.h \
+ /usr/arm-linux-gnueabihf/include/sys/types.h \
+ ../../../include/posix/sys/select.h \
+ /usr/arm-linux-gnueabihf/include/sys/select.h \
+ /usr/arm-linux-gnueabihf/include/bits/select.h \
+ /usr/arm-linux-gnueabihf/include/bits/sigset.h \
+ /usr/arm-linux-gnueabihf/include/bits/select2.h \
+ /usr/arm-linux-gnueabihf/include/sys/sysmacros.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/4.8/include/stdint.h \
+ /usr/arm-linux-gnueabihf/include/stdint.h \
+ /usr/arm-linux-gnueabihf/include/bits/wchar.h \
+ ../../../src/include/asm/xenomai/system.h \
+ ../../../include/nucleus/system.h \
+ /usr/arm-linux-gnueabihf/include/memory.h \
+ /usr/arm-linux-gnueabihf/include/asm/param.h \
+ /usr/arm-linux-gnueabihf/include/asm-generic/param.h \
+ ../../../src/include/asm/xenomai/atomic.h \
+ ../../../src/include/asm/xenomai/features.h \
+ ../../../src/include/asm-generic/xenomai/features.h \
+ ../../../include/nucleus/trace.h \
+ ../../../src/include/asm-generic/xenomai/syscall.h \
+ ../../../src/include/asm/xenomai/tsc.h \
+ /usr/arm-linux-gnueabihf/include/bits/local_lim.h \
+ /usr/arm-linux-gnueabihf/include/linux/limits.h \
+ ../../../include/nucleus/compiler.h ../../../include/nucleus/assert.h \
+ ../../../include/nucleus/intr.h ../../../include/posix/signal.h \
+ /usr/arm-linux-gnueabihf/include/signal.h \
+ /usr/arm-linux-gnueabihf/include/bits/signum.h \
+ /usr/arm-linux-gnueabihf/include/bits/siginfo.h \
+ /usr/arm-linux-gnueabihf/include/bits/sigaction.h \
+ /usr/arm-linux-gnueabihf/include/bits/sigcontext.h \
+ /usr/arm-linux-gnueabihf/include/asm/sigcontext.h \
+ /usr/arm-linux-gnueabihf/include/bits/sigstack.h \
+ /usr/arm-linux-gnueabihf/include/sys/ucontext.h \
+ /usr/arm-linux-gnueabihf/include/bits/sigthread.h \
+ /usr/arm-linux-gnueabihf/include/bits/waitflags.h \
+ /usr/arm-linux-gnueabihf/include/bits/waitstatus.h \
+ /usr/arm-linux-gnueabihf/include/alloca.h \
+ /usr/arm-linux-gnueabihf/include/bits/stdlib-bsearch.h \
+ /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h \
+ /usr/arm-linux-gnueabihf/include/bits/stdlib.h \
+ ../../../include/posix/unistd.h \
+ /usr/arm-linux-gnueabihf/include/unistd.h \
+ /usr/arm-linux-gnueabihf/include/bits/posix_opt.h \
+ /usr/arm-linux-gnueabihf/include/bits/environments.h \
+ /usr/arm-linux-gnueabihf/include/bits/confname.h \
+ /usr/arm-linux-gnueabihf/include/getopt.h \
+ /usr/arm-linux-gnueabihf/include/bits/unistd.h \
+ /usr/arm-linux-gnueabihf/include/sys/syscall.h \
+ /usr/arm-linux-gnueabihf/include/asm/unistd.h \
+ /usr/arm-linux-gnueabihf/include/bits/syscall.h \
+ ../../../include/posix/sys/mman.h \
+ /usr/arm-linux-gnueabihf/include/sys/mman.h \
+ /usr/arm-linux-gnueabihf/include/bits/mman.h \
+ /usr/arm-linux-gnueabihf/include/bits/mman-linux.h \
+ /usr/arm-linux-gnueabihf/include/sys/time.h \
+ ../../../include/nucleus/vdso.h ../../../include/nucleus/hostrt.h \
+ ../../../include/nucleus/seqlock.h
+
+/usr/arm-linux-gnueabihf/include/stdc-predef.h:
+
+../../../include/posix/errno.h:
+
+/usr/arm-linux-gnueabihf/include/errno.h:
+
+/usr/arm-linux-gnueabihf/include/features.h:
+
+/usr/arm-linux-gnueabihf/include/sys/cdefs.h:
+
+/usr/arm-linux-gnueabihf/include/bits/wordsize.h:
+
+/usr/arm-linux-gnueabihf/include/gnu/stubs.h:
+
+/usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h:
+
+/usr/arm-linux-gnueabihf/include/bits/errno.h:
+
+/usr/arm-linux-gnueabihf/include/linux/errno.h:
+
+/usr/arm-linux-gnueabihf/include/asm/errno.h:
+
+/usr/arm-linux-gnueabihf/include/asm-generic/errno.h:
+
+/usr/arm-linux-gnueabihf/include/asm-generic/errno-base.h:
+
+../../../include/posix/pthread.h:
+
+../../../include/posix/sched.h:
+
+/usr/arm-linux-gnueabihf/include/sched.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types.h:
+
+/usr/arm-linux-gnueabihf/include/bits/typesizes.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabihf/4.8/include/stddef.h:
+
+../../../include/posix/time.h:
+
+/usr/arm-linux-gnueabihf/include/time.h:
+
+/usr/arm-linux-gnueabihf/include/bits/time.h:
+
+/usr/arm-linux-gnueabihf/include/bits/timex.h:
+
+/usr/arm-linux-gnueabihf/include/xlocale.h:
+
+/usr/arm-linux-gnueabihf/include/bits/sched.h:
+
+/usr/arm-linux-gnueabihf/include/pthread.h:
+
+/usr/arm-linux-gnueabihf/include/endian.h:
+
+/usr/arm-linux-gnueabihf/include/bits/endian.h:
+
+/usr/arm-linux-gnueabihf/include/bits/byteswap.h:
+
+/usr/arm-linux-gnueabihf/include/bits/byteswap-16.h:
+
+/usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h:
+
+/usr/arm-linux-gnueabihf/include/bits/setjmp.h:
+
+../../../include/nucleus/thread.h:
+
+../../../include/nucleus/types.h:
+
+../../../include/posix/stdio.h:
+
+/usr/arm-linux-gnueabihf/include/stdio.h:
+
+/usr/arm-linux-gnueabihf/include/libio.h:
+
+/usr/arm-linux-gnueabihf/include/_G_config.h:
+
+/usr/arm-linux-gnueabihf/include/wchar.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabihf/4.8/include/stdarg.h:
+
+/usr/arm-linux-gnueabihf/include/bits/stdio_lim.h:
+
+/usr/arm-linux-gnueabihf/include/bits/sys_errlist.h:
+
+/usr/arm-linux-gnueabihf/include/bits/stdio.h:
+
+/usr/arm-linux-gnueabihf/include/bits/stdio2.h:
+
+../../../src/include/xeno_config.h:
+
+/usr/arm-linux-gnueabihf/include/string.h:
+
+/usr/arm-linux-gnueabihf/include/bits/string.h:
+
+/usr/arm-linux-gnueabihf/include/bits/string2.h:
+
+/usr/arm-linux-gnueabihf/include/stdlib.h:
+
+/usr/arm-linux-gnueabihf/include/bits/string3.h:
+
+/usr/arm-linux-gnueabihf/include/sys/types.h:
+
+../../../include/posix/sys/select.h:
+
+/usr/arm-linux-gnueabihf/include/sys/select.h:
+
+/usr/arm-linux-gnueabihf/include/bits/select.h:
+
+/usr/arm-linux-gnueabihf/include/bits/sigset.h:
+
+/usr/arm-linux-gnueabihf/include/bits/select2.h:
+
+/usr/arm-linux-gnueabihf/include/sys/sysmacros.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabihf/4.8/include/stdint.h:
+
+/usr/arm-linux-gnueabihf/include/stdint.h:
+
+/usr/arm-linux-gnueabihf/include/bits/wchar.h:
+
+../../../src/include/asm/xenomai/system.h:
+
+../../../include/nucleus/system.h:
+
+/usr/arm-linux-gnueabihf/include/memory.h:
+
+/usr/arm-linux-gnueabihf/include/asm/param.h:
+
+/usr/arm-linux-gnueabihf/include/asm-generic/param.h:
+
+../../../src/include/asm/xenomai/atomic.h:
+
+../../../src/include/asm/xenomai/features.h:
+
+../../../src/include/asm-generic/xenomai/features.h:
+
+../../../include/nucleus/trace.h:
+
+../../../src/include/asm-generic/xenomai/syscall.h:
+
+../../../src/include/asm/xenomai/tsc.h:
+
+/usr/arm-linux-gnueabihf/include/bits/local_lim.h:
+
+/usr/arm-linux-gnueabihf/include/linux/limits.h:
+
+../../../include/nucleus/compiler.h:
+
+../../../include/nucleus/assert.h:
+
+../../../include/nucleus/intr.h:
+
+../../../include/posix/signal.h:
+
+/usr/arm-linux-gnueabihf/include/signal.h:
+
+/usr/arm-linux-gnueabihf/include/bits/signum.h:
+
+/usr/arm-linux-gnueabihf/include/bits/siginfo.h:
+
+/usr/arm-linux-gnueabihf/include/bits/sigaction.h:
+
+/usr/arm-linux-gnueabihf/include/bits/sigcontext.h:
+
+/usr/arm-linux-gnueabihf/include/asm/sigcontext.h:
+
+/usr/arm-linux-gnueabihf/include/bits/sigstack.h:
+
+/usr/arm-linux-gnueabihf/include/sys/ucontext.h:
+
+/usr/arm-linux-gnueabihf/include/bits/sigthread.h:
+
+/usr/arm-linux-gnueabihf/include/bits/waitflags.h:
+
+/usr/arm-linux-gnueabihf/include/bits/waitstatus.h:
+
+/usr/arm-linux-gnueabihf/include/alloca.h:
+
+/usr/arm-linux-gnueabihf/include/bits/stdlib-bsearch.h:
+
+/usr/arm-linux-gnueabihf/include/bits/stdlib-float.h:
+
+/usr/arm-linux-gnueabihf/include/bits/stdlib.h:
+
+../../../include/posix/unistd.h:
+
+/usr/arm-linux-gnueabihf/include/unistd.h:
+
+/usr/arm-linux-gnueabihf/include/bits/posix_opt.h:
+
+/usr/arm-linux-gnueabihf/include/bits/environments.h:
+
+/usr/arm-linux-gnueabihf/include/bits/confname.h:
+
+/usr/arm-linux-gnueabihf/include/getopt.h:
+
+/usr/arm-linux-gnueabihf/include/bits/unistd.h:
+
+/usr/arm-linux-gnueabihf/include/sys/syscall.h:
+
+/usr/arm-linux-gnueabihf/include/asm/unistd.h:
+
+/usr/arm-linux-gnueabihf/include/bits/syscall.h:
+
+../../../include/posix/sys/mman.h:
+
+/usr/arm-linux-gnueabihf/include/sys/mman.h:
+
+/usr/arm-linux-gnueabihf/include/bits/mman.h:
+
+/usr/arm-linux-gnueabihf/include/bits/mman-linux.h:
+
+/usr/arm-linux-gnueabihf/include/sys/time.h:
+
+../../../include/nucleus/vdso.h:
+
+../../../include/nucleus/hostrt.h:
+
+../../../include/nucleus/seqlock.h:
